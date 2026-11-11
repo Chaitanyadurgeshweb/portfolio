@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kilaparthi Chaitanya Durgesh — Portfolio</title>
+<meta name="description" content="Electronics and Communication Engineering graduate and Kavach Data Analyst at Medha Servo Drives, Hyderabad. Electronics, railway technology, data analytics and web development.">
+<meta name="theme-color" content="#050810">
+<meta property="og:title" content="Kilaparthi Chaitanya Durgesh — Electronics Engineer | Kavach Data Analyst">
+<meta property="og:description" content="Portfolio of an electronics engineer working on Indian Railways Kavach data analysis.">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050810;--bg2:#0A0F1C;--card:#0F1626;--a:#7C5CFF;--a2:#2EE6FF;--t:#F4F7FC;--t2:#9BA9BC;--bd:rgba(255,255,255,.09);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--t);font:400 17px/1.65 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:Space Grotesk,Inter,sans-serif;margin:0;line-height:1.1}
+a{color:inherit;text-decoration:none}
+section{padding:110px 6vw;position:relative;z-index:1}
+section:nth-of-type(even){background:rgba(10,15,28,.5)}
+h2{font-size:clamp(2rem,4.4vw,56px);font-weight:600;letter-spacing:-.02em;margin-bottom:40px;max-width:16ch}
+p{color:var(--t2);max-width:62ch}
+nav{position:fixed;top:env(safe-area-inset-top,0px);left:50%;transform:translateX(-50%);z-index:20;display:flex;gap:6px;align-items:center;padding:8px 10px;border-radius:99px;border:1px solid transparent;transition:.4s;max-width:96vw}
+nav.s{background:rgba(10,15,28,.65);backdrop-filter:blur(14px);border-color:var(--bd);margin-top:10px}
+nav .logo{font:800 15px Space Grotesk;padding:6px 12px;border-radius:99px;background:linear-gradient(135deg,var(--a),var(--a2));color:#06101f}
+nav a.l{padding:7px 12px;border-radius:99px;font-size:15px;font-weight:500;color:var(--t2);transition:.25s}
+nav a.l:hover,nav a.l.on{color:var(--t);background:rgba(124,92,255,.16)}
+#mb{display:none;background:none;border:0;color:var(--t);font-size:22px;cursor:pointer}
+@media(max-width:860px){nav a.l{display:none}nav.o a.l{display:block}nav.o{flex-direction:column;align-items:stretch;border-radius:20px;background:rgba(10,15,28,.92)}#mb{display:block}}
+#hero{min-height:100vh;display:grid;grid-template-columns:1.3fr .7fr;align-items:center;padding-top:120px;overflow:hidden}
+.hc{position:relative;z-index:2;max-width:880px}
+.hc>*{opacity:0;transform:translateY(24px);animation:in .9s cubic-bezier(.2,.8,.2,1) forwards}
+.hc .k{font:300 1rem Space Grotesk;color:var(--a2);letter-spacing:.3em;animation-delay:.9s}
+.hc h1{font-size:clamp(3rem,9vw,100px);font-weight:700;letter-spacing:-.04em;animation-delay:1.2s}
+.hc .r{font:400 1.05rem Space Grotesk;color:var(--t);margin:18px 0;animation-delay:1.6s}
+.hc p{animation-delay:1.8s}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0;animation-delay:2.1s}
+.hc .soc{animation-delay:2.3s}
+@keyframes in{to{opacity:1;transform:none}}
+.b{padding:13px 24px;border-radius:99px;border:1px solid var(--bd);font:600 14px Space Grotesk;cursor:pointer;background:transparent;color:var(--t);transition:.3s}
+.b.p{background:linear-gradient(135deg,var(--a),var(--a2));color:#06101f;border:0}
+.b:hover{transform:translateY(-2px);border-color:var(--a2)}
+.b[aria-disabled=true]{opacity:.45;pointer-events:none}
+.soc a{margin-right:20px;color:var(--t2);border-bottom:1px solid var(--bd)}
+.soc a:hover{color:var(--a2)}
+.scr{position:absolute;bottom:26px;left:50%;width:22px;height:36px;border:1.5px solid var(--t2);border-radius:12px;z-index:2}
+.scr::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;background:var(--a2);border-radius:2px;animation:sc 1.8s infinite}
+@keyframes sc{0%{opacity:1;transform:none}100%{opacity:0;transform:translateY(14px)}}
+.split{display:grid;grid-template-columns:.8fr 1.2fr;gap:6vw;align-items:center}
+.frame{aspect-ratio:4/5;border-radius:24px;background:linear-gradient(160deg,var(--card),#0a1220);border:1px solid var(--bd);display:grid;place-items:center;transition:transform .15s;transform-style:preserve-3d;box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(124,92,255,.12);max-width:380px}
+.frame span{font:800 5rem Space Grotesk;background:linear-gradient(135deg,var(--a),var(--a2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.frame small{display:block;text-align:center;color:var(--t2);font-size:13px}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px}
+.facts div{padding:14px 16px;border-left:2px solid var(--a);background:rgba(255,255,255,.03)}
+.facts b{display:block;font:600 12px Space Grotesk;color:var(--a2)}
+.tl{position:relative;margin-left:14px;padding-left:34px;max-width:820px}
+.tl::before{content:"";position:absolute;left:0;top:6px;bottom:0;width:2px;background:linear-gradient(var(--a),transparent);transform-origin:top;transform:scaleY(0);transition:transform 1.4s ease}
+.tl.v::before{transform:scaleY(1)}
+.tl .it{position:relative;margin-bottom:34px;background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:26px}
+.tl .it::before{content:"";position:absolute;left:-41px;top:30px;width:14px;height:14px;border-radius:50%;background:var(--a2);box-shadow:0 0 0 5px rgba(46,230,255,.15)}
+.it h3{font-size:1.3rem;margin-bottom:4px}
+.it em{font-style:normal;color:var(--a2);font-size:14px}
+.it ul{margin:14px 0 0;padding-left:18px;color:var(--t2)}
+.it li{margin:5px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.sk{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:26px;transform-style:preserve-3d;transition:transform .12s;position:relative;overflow:hidden;background-image:radial-gradient(260px circle at var(--x,50%) var(--y,0%),rgba(46,230,255,.13),transparent 70%)}
+.sk h3{font-size:1.05rem;margin-bottom:14px;color:var(--a2)}
+.sk span{display:inline-block;margin:0 6px 8px 0;padding:5px 12px;border:1px solid var(--bd);border-radius:99px;font-size:13px;color:var(--t)}
+.pr{display:grid;gap:26px}
+.pc{display:grid;grid-template-columns:1.1fr 1fr;border-radius:26px;overflow:hidden;background:var(--card);border:1px solid var(--bd);cursor:pointer;transition:.4s}
+.pc:hover{border-color:rgba(46,230,255,.45);transform:translateY(-4px)}
+.pv{min-height:300px;position:relative;overflow:hidden;background:#0a1322}
+.pv svg{position:absolute;inset:0;width:100%;height:100%;transition:transform .8s}
+.pc:hover .pv svg{transform:scale(1.07)}
+.pi{padding:34px;display:flex;flex-direction:column;gap:14px;justify-content:center}
+.pi h3{font-size:1.6rem}
+.tags span{display:inline-block;margin:0 6px 6px 0;padding:4px 11px;background:rgba(124,92,255,.14);border-radius:99px;font-size:12px;color:var(--a2)}
+@media(max-width:860px){#hero,.split,.pc{grid-template-columns:1fr}.hc{max-width:none}.frame{margin:auto}}
+.ci{display:flex;gap:16px;align-items:flex-start;padding:22px;border:1px solid var(--bd);border-radius:18px;background:var(--card);transition:.3s}
+.ci:hover{border-color:var(--a2);transform:translateY(-3px)}
+.ci svg{flex:none;width:34px;height:34px;stroke:var(--a2);fill:none;stroke-width:1.5}
+.ci h3{font-size:1rem;margin-bottom:4px}
+.ci p{margin:0;font-size:14px}
+#contact h2{font-size:clamp(2rem,4.4vw,56px);max-width:20ch;font-weight:600}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:6vw;margin-top:30px}
+@media(max-width:860px){.cg{grid-template-columns:1fr}}
+form{display:grid;gap:14px}
+input,textarea{width:100%;padding:14px 16px;border-radius:14px;border:1px solid var(--bd);background:var(--card);color:var(--t);font:inherit}
+input:focus,textarea:focus,.b:focus-visible,a:focus-visible{outline:2px solid var(--a2);outline-offset:2px}
+.err{color:#ff8a8a;font-size:13px;min-height:1em}
+#st{font-size:14px;min-height:1.4em}
+.hp{position:absolute;left:-9999px}
+#md{position:fixed;inset:0;background:rgba(4,7,12,.8);backdrop-filter:blur(8px);z-index:50;display:none;place-items:center;padding:4vw}
+#md.o{display:grid}
+.mb{background:var(--bg2);border:1px solid var(--bd);border-radius:26px;max-width:760px;width:100%;max-height:88vh;overflow:auto;padding:36px;animation:in .4s forwards;opacity:0;transform:translateY(16px)}
+.mb h3{font-size:1.8rem;margin-bottom:12px}
+.mb h4{font:600 13px Space Grotesk;color:var(--a2);margin:22px 0 8px}
+.mb li{color:var(--t2);margin:4px 0}
+footer{position:relative;z-index:1;padding:30px 6vw;text-align:center;color:var(--t2);font-size:13px;border-top:1px solid var(--bd)}
+#pg{position:fixed;top:0;left:0;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--a),var(--a2));z-index:60}
+#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.b{will-change:transform}
+.pc{position:relative;--x:50%;--y:50%}
+.pc::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(380px circle at var(--x) var(--y),rgba(46,230,255,.12),transparent 65%);opacity:0;transition:opacity .3s}
+.pc:hover::after{opacity:1}
+.pv::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 40%,rgba(46,230,255,.14) 50%,transparent 60%);transform:translateX(-100%);transition:transform .9s}
+.pc:hover .pv::after{transform:translateX(100%)}
+.rv2{opacity:0;transform:translateY(28px);transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1)}
+.rv2.v{opacity:1;transform:none}
+.hc h1 span{display:inline-block;opacity:0;transform:translateY(60%) rotateX(-70deg);animation:ch .9s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes ch{to{opacity:1;transform:none}}
+#top{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:max(18px,env(safe-area-inset-bottom,0px));width:48px;height:48px;border-radius:50%;border:1px solid var(--bd);background:rgba(10,15,28,.7);backdrop-filter:blur(10px);color:var(--t);cursor:pointer;z-index:40;opacity:0;transform:translateY(12px);pointer-events:none;transition:.35s}
+#top.s{opacity:1;transform:none;pointer-events:auto}
+#top:hover{border-color:var(--a2)}
+#ld{position:fixed;inset:0;background:var(--bg);z-index:100;display:grid;place-items:center;transition:opacity .7s,visibility .7s;animation:ldx 0s 4s forwards}
+#ld.x{opacity:0;visibility:hidden}
+#ld b{font:800 2.2rem Space Grotesk;background:linear-gradient(135deg,var(--a),var(--a2));-webkit-background-clip:text;background-clip:text;color:transparent;animation:pl 1.2s ease-in-out infinite}
+@keyframes pl{50%{opacity:.35}}
+@keyframes ldx{to{opacity:0;visibility:hidden}}
+#clk{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--t2);margin-top:6px}
+#clk i{width:7px;height:7px;border-radius:50%;background:var(--a2);animation:rp 2s infinite}
+@keyframes rp{0%{box-shadow:0 0 0 0 rgba(46,230,255,.6)}100%{box-shadow:0 0 0 9px rgba(46,230,255,0)}}
+section+section::before{content:"";position:absolute;top:0;left:6vw;right:6vw;height:1px;background:linear-gradient(90deg,transparent,rgba(46,230,255,.35),transparent)}
+@media(max-width:860px){.b{min-height:44px;display:inline-flex;align-items:center;justify-content:center}}
+.lb{display:flex;align-items:center;gap:10px;margin-bottom:14px;font:500 13px Space Grotesk;color:var(--a2)}
+.lb i{width:30px;height:1px;background:linear-gradient(90deg,var(--a2),transparent);transform-origin:left;animation:lbi 1.4s cubic-bezier(.2,.8,.2,1) both}
+@keyframes lbi{from{transform:scaleX(0)}}
+.tl .it,.ci{background-image:radial-gradient(260px circle at var(--x,50%) var(--y,0%),rgba(46,230,255,.1),transparent 70%),linear-gradient(160deg,rgba(255,255,255,.04),transparent 40%);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.pv svg{translate:calc(var(--px,0)*16px) calc(var(--py,0)*10px)}
+.hc .k{font:400 clamp(.82rem,1.25vw,1rem) 'Space Grotesk',Inter,sans-serif;letter-spacing:.04em;color:var(--a2);transform:none;animation:foc 1.8s cubic-bezier(.2,.8,.2,1) 4.6s both}
+@keyframes foc{from{opacity:0;filter:blur(10px);letter-spacing:.28em}to{opacity:1;filter:none;letter-spacing:.04em}}
+.hc .idw{position:relative;width:100%;aspect-ratio:2.4/1;margin:4px 0 0;transform:none;opacity:1;animation:none}
+.idw::before{content:"";position:absolute;inset:8% 0;background:radial-gradient(60% 55% at 40% 50%,rgba(124,92,255,.16),transparent 70%);pointer-events:none}
+.idw canvas{position:absolute;inset:0;width:100%;height:100%}
+.hc h1.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.noidn .hc h1{font-size:clamp(2.2rem,7.5vw,100px)}
+.hc .r{font:500 12px/1.4 Inter,sans-serif;letter-spacing:.22em;color:var(--t2);animation:none;opacity:0;transform:translateY(10px);transition:opacity 1.4s,transform 1.4s;margin:10px 0 18px}
+.hc .r.on{opacity:1;transform:none}
+@media(max-width:860px){.hc .idw{aspect-ratio:2/1}.hc .r{letter-spacing:.14em;font-size:11px}}
+.pv svg{stroke-width:2}
+.pv svg .a{stroke:var(--c1);fill:none}.pv svg .b{stroke:var(--c2);fill:none}.pv svg .fa{fill:var(--c1);stroke:none}.pv svg .fb{fill:var(--c2);stroke:none}
+.pc.pj{grid-template-columns:1.2fr 1fr;min-height:360px;border-radius:34px;background:linear-gradient(135deg,rgba(15,22,38,.92),rgba(10,15,28,.88));box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.pc.pj:nth-child(even){grid-template-columns:1fr 1.2fr}
+.pc.pj:nth-child(even) .pv{order:2;clip-path:polygon(8% 0,100% 0,100% 100%,0 100%)}
+.pj .pv{min-height:340px;clip-path:polygon(0 0,100% 0,92% 100%,0 100%);background:radial-gradient(80% 80% at 30% 30%,color-mix(in srgb,var(--c2) 24%,transparent),transparent 70%),#080d1a}
+.pc.pj:hover{border-color:var(--c1)}
+.pj .no{font:700 60px/1 'Space Grotesk',sans-serif;-webkit-text-stroke:1px var(--c1);color:transparent;opacity:.75}
+.cats{display:flex;flex-wrap:wrap;gap:4px 14px}.cats i{font-style:normal;font-size:12px;font-weight:500;color:var(--c1)}
+.pj h3,.mb h3{font-size:clamp(1.5rem,2.4vw,2rem)}
+.sub{display:block;font-style:normal;font-size:14px;color:var(--t2);margin-top:2px}.mb h3 .sub{display:inline;font-size:inherit;font-weight:400}
+.pj .tags span,.mb .tags span{background:color-mix(in srgb,var(--c2) 16%,transparent);color:var(--t);transition:transform .35s,box-shadow .35s;transition-delay:calc(var(--i,0)*45ms)}
+.pc.pj:hover .tags span{transform:translateY(-4px);box-shadow:0 6px 18px color-mix(in srgb,var(--c1) 25%,transparent)}
+@keyframes dash{to{stroke-dashoffset:-28}}
+.pc:hover .pv .b{stroke-dasharray:6 8;animation:dash 1.4s linear infinite}
+.mb{max-width:980px}.mv{min-height:0;height:190px;border-radius:18px;margin-bottom:18px;background:radial-gradient(80% 80% at 30% 30%,color-mix(in srgb,var(--c2) 24%,transparent),transparent 70%),#080d1a}
+.mb .cats{margin-bottom:8px}.mb .note{font-size:14px;color:var(--t)}
+.mb ul.cols{columns:2;column-gap:32px}.mb li{break-inside:avoid}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.flow span{padding:8px 14px;border:1px solid var(--bd);border-radius:12px;background:rgba(255,255,255,.03);font-size:14px}.flow b{color:var(--c1)}
+@media(max-width:860px){.pc.pj,.pc.pj:nth-child(even){grid-template-columns:1fr}.pc.pj:nth-child(even) .pv{order:0}.pj .pv,.pc.pj:nth-child(even) .pv{min-height:220px;clip-path:none}.mb ul.cols{columns:1}}
+.st{display:inline-flex;align-items:center;font-size:13px;color:var(--t2);padding:10px 16px;border:1px dashed var(--bd);border-radius:99px}
+.pcard{max-width:420px;width:100%;border-radius:28px;padding:34px;background:radial-gradient(90% 60% at 20% 0%,rgba(124,92,255,.16),transparent 70%),linear-gradient(160deg,rgba(15,22,38,.92),rgba(10,15,28,.88));border:1px solid var(--bd);box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(124,92,255,.14);transform-style:preserve-3d;transition:transform .15s}
+.pcard .mono{display:block;font:700 4.2rem/1 'Space Grotesk',sans-serif;background:linear-gradient(135deg,var(--a),var(--a2));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:18px}
+.pcard h3{font-size:1.35rem}.pcard .rl{margin:6px 0 22px;font-size:15px}
+.pcard dl{margin:0;display:grid;gap:12px}.pcard dl>div{padding-top:10px;border-top:1px solid var(--bd)}
+.pcard dt{font:500 12px 'Space Grotesk',sans-serif;color:var(--a2)}.pcard dd{margin:2px 0 0;color:var(--t);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0}.chips span{padding:6px 14px;border:1px solid var(--bd);border-radius:99px;font-size:14px;color:var(--t)}
+.mini{font:600 13px 'Space Grotesk',sans-serif;color:var(--a2);margin:26px 0 0}
+@media(max-width:860px){.pcard{margin:auto}}
+#rs{position:fixed;inset:0;z-index:90;background:radial-gradient(70% 50% at 85% 0%,rgba(124,92,255,.16),transparent 60%),var(--bg);overflow:auto;display:none;padding:0 5vw 60px;-webkit-user-select:none;user-select:none}
+#rs.o{display:block;opacity:0;animation:in .5s forwards}
+.rbar{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:calc(14px + env(safe-area-inset-top,0px)) 0 14px;background:rgba(5,8,16,.82);backdrop-filter:blur(12px)}
+.rt{font:500 13px 'Space Grotesk',sans-serif;color:var(--t2)}
+.rsh{max-width:1060px;margin:18px auto 0;display:grid;grid-template-columns:330px 1fr;border:1px solid var(--bd);border-radius:28px;overflow:hidden;background:rgba(15,22,38,.72);box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.ra{padding:40px 30px;background:linear-gradient(180deg,rgba(124,92,255,.16),rgba(46,230,255,.04));border-right:1px solid var(--bd)}
+.ra .mono{font:700 3.4rem/1 'Space Grotesk',sans-serif;background:linear-gradient(135deg,var(--a),var(--a2));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:8px}
+.rm{padding:44px 46px}
+.rsh h2{font:600 12px 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--a2);margin:30px 0 12px;max-width:none}
+.rm h2:first-of-type{margin-top:26px}
+.rsh p{max-width:none;font-size:15.5px}.rl{color:var(--t);margin:0 0 8px;word-break:break-word}.rk{margin:12px 0 0;font-size:13px!important}
+.rsh a{color:var(--a2)}
+.rn{font:700 clamp(1.8rem,3.4vw,2.6rem)/1.1 'Space Grotesk',sans-serif;letter-spacing:-.02em}
+.rh{margin:10px 0 0;color:var(--t2)}
+.re{margin-bottom:20px}.re h3{font-size:1.1rem;margin-bottom:2px}.re .m{color:var(--a2);font-size:14px}.re p{margin:4px 0 4px}.re ul{margin:10px 0 0;padding-left:18px;color:var(--t2)}.re li{margin:5px 0}
+.ra .chips span{font-size:13px;padding:5px 11px}
+@media(max-width:860px){.rsh{grid-template-columns:1fr}.ra{border-right:0;border-bottom:1px solid var(--bd)}.rm{padding:30px 24px}}
+@media print{body.rso{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;transition:none!important}html{scroll-behavior:auto}}
+</style></head><body><div id="ld" aria-hidden="true"><b>CD</b></div><button id="top" aria-label="Back to top">↑</button>
+<nav id="nav" aria-label="Main"><a class="logo" href="#home" aria-label="CD home">CD</a>
+<a class="l on" href="#home">Home</a><a class="l" href="#about">About</a><a class="l" href="#experience">Experience</a><a class="l" href="#skills">Skills</a><a class="l" href="#projects">Projects</a><a class="l" href="#education">Education</a><a class="l" href="#contact">Contact</a>
+<button id="mb" aria-label="Menu">☰</button></nav>
+
+<section id="home">
+<div class="hc"><div class="k">Innovation starts with a question.</div><div class="idw"><canvas id="idn" aria-hidden="true"></canvas></div><h1 class="sr">CHAITANYA DURGESH</h1>
+<div class="r">ECE | KAVACH | DATA ANALYSIS | TECHNOLOGY</div>
+<p>Electronics and Communication graduate working on Indian Railways Kavach data analysis and technical documentation. I build practical solutions across electronics, data and the web.</p>
+<div class="btns"><a class="b p" href="#projects">Explore My Work</a><a class="b" id="rbtn" href="#resume">View Resume</a><a class="b" href="#contact">Contact Me</a></div>
+<div class="soc"><a id="li" href="#">LinkedIn</a></div></div>
+<div class="scr" aria-hidden="true"></div></section>
+
+<section id="about"><div class="split"><div class="pcard" id="fr"><span class="mono">CD</span><h3>Kilaparthi Chaitanya Durgesh</h3><p class="rl">Electronics Engineer · Kavach Data Analyst</p>
+<dl><div><dt>Location</dt><dd>Hyderabad, India · current<span id="clk"><i></i><span id="tm"></span></span></dd></div><div><dt>Permanent location</dt><dd>Visakhapatnam, Andhra Pradesh</dd></div><div><dt>Position</dt><dd>Data Analyst, Medha Servo Drives Pvt. Ltd.</dd></div><div><dt>Industry</dt><dd>Railway Technology</dd></div><div><dt>Education</dt><dd>Diploma in Electronics and Communication Engineering</dd></div><div><dt>Languages</dt><dd>Telugu (native) · English (conversational)</dd></div></dl></div>
+<div><h2>Engineering meets data.</h2>
+<p>I am an Electronics and Communication Engineering graduate working as a Data Analyst at Medha Servo Drives Pvt. Ltd., contributing to railway technology through Kavach-related data analysis and technical documentation.</p>
+<p>I am passionate about electronics, railway safety technology, digital systems, data analytics and software development, and I enjoy exploring emerging technologies and building practical solutions.</p>
+<h4 class="mini">Strengths</h4><div class="chips"><span>Critical thinking</span><span>Problem-solving</span><span>Teamwork</span><span>Quick learning</span><span>Self-learning</span></div>
+<h4 class="mini">Interests</h4><div class="chips"><span>Web designing</span><span>Exploring new technologies</span><span>Travelling</span><span>Learning new things</span><span>Listening to music</span></div></div></div></section>
+
+<section id="experience"><h2>Professional experience</h2>
+<div class="tl rv"><div class="it"><h3>Data Analyst</h3><em>Medha Servo Drives Pvt. Ltd. · Indian Railways Kavach · Hyderabad</em>
+<p style="margin:12px 0 0">Working in the Kavach technology domain as a Data Analyst, contributing to locomotive log data analysis, technical observations, fault documentation and structured reporting.</p><ul><li>Locomotive log data analysis</li><li>Technical fault observations</li><li>Communication-related issue analysis</li><li>Speed sensor and system status observations</li><li>Kavach-related technical documentation</li><li>Excel-based data processing</li><li>Technical report preparation</li></ul></div></div></section>
+
+<section id="skills"><h2>Technical skills</h2><div class="grid" id="sg"></div></section>
+
+<section id="projects"><h2>Selected projects</h2><div class="pr" id="pl"></div></section>
+
+<section id="education"><h2>Education</h2>
+<div class="tl rv"><div class="it"><h3>Diploma in Electronics and Communication Engineering</h3><em>A.A.N.M. &amp; V.V.R.S.R. Polytechnic, Gudlavalleru, Andhra Pradesh · 91.2%</em></div>
+<div class="it"><h3>Secondary education</h3><em>Z.P. High School · SSC · 72%</em></div></div>
+<h2 style="margin-top:80px">Career interests</h2><div class="grid" id="ig"></div></section>
+
+<section id="contact"><h2>THE FUTURE IS BUILT BY THOSE WHO CREATE.</h2>
+<p>Interested in technology, engineering, collaboration or new opportunities? Let's connect.</p>
+<div class="cg"><div style="display:grid;gap:14px;align-content:start">
+<div class="ci"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><div><h3>Email</h3><p id="em">Email address coming soon.</p></div></div>
+<div class="ci"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 10v6M8 7v.01M12 16v-6M12 13a3 3 0 0 1 6 0v3"/></svg><div><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/chaitanyadurgesh-k" target="_blank" rel="noopener" style="color:var(--a2)">linkedin.com/in/chaitanyadurgesh-k</a></p></div></div>
+</div>
+<form id="f" novalidate><input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div><input name="name" placeholder="Name" autocomplete="name"><div class="err"></div></div>
+<div><input name="email" type="email" placeholder="Email" autocomplete="email"><div class="err"></div></div>
+<div><input name="subject" placeholder="Subject"><div class="err"></div></div>
+<div><textarea name="message" rows="5" placeholder="Message"></textarea><div class="err"></div></div>
+<button class="b p" type="submit">Send message</button><div id="st" role="status"></div></form></div></section>
+<footer>© <span id="yr"></span> Kilaparthi Chaitanya Durgesh</footer>
+
+<div id="rs" role="dialog" aria-modal="true" aria-label="Resume"><div class="rbar"><button class="b rb" id="rcl">← Back to portfolio</button><span class="rt">Resume · view only</span></div>
+<div class="rsh"><aside class="ra"><div class="mono">CD</div>
+<h2>Contact</h2><p class="rl"><a href="mailto:kilaparthichaitanyadurgesh@gmail.com">kilaparthichaitanyadurgesh@gmail.com</a></p><p class="rl"><a href="https://www.linkedin.com/in/chaitanyadurgesh-k" target="_blank" rel="noopener">linkedin.com/in/chaitanyadurgesh-k</a></p><p class="rl">Permanent: Visakhapatnam, Andhra Pradesh<br>Current: Hyderabad</p>
+<h2>Technical skills</h2><p class="rk">Electronics</p><div class="chips"><span>Electronics fundamentals</span><span>Electrical circuit basics</span><span>Sensors and interfacing</span><span>Arduino Uno</span><span>Embedded systems</span></div>
+<p class="rk">Data &amp; Software</p><div class="chips"><span>Locomotive log data analysis</span><span>CSV / Excel data processing</span><span>Data visualization</span><span>Technical reporting</span><span>Web application development</span></div>
+<h2>Languages</h2><p class="rl">Telugu — Native<br>English — Conversational</p>
+<h2>Interests</h2><p class="rl">Web designing, exploring new technologies, travelling, learning new things and listening to music.</p></aside>
+<main class="rm"><div class="rn">Kilaparthi Chaitanya Durgesh</div><p class="rh">Electronics &amp; Communications · Kavach Data Analysis · Software &amp; Web Development</p>
+<h2>Professional summary</h2><p>Electronics and Communication Engineering diploma holder with practical exposure to railway technology and Kavach-related data analysis. Currently working at Medha Servo Drives Pvt. Ltd. as a Data Analyst in the Kavach domain. Interested in locomotive log analysis, technical documentation, electronics, data processing and web designing. Builds independent software projects focused on railway data processing and visualization.</p>
+<h2>Professional experience</h2><div class="re"><h3>Data Analyst</h3><div class="m">Medha Servo Drives Pvt. Ltd. · Kavach – Railway Technology</div><ul><li>Analyse locomotive-related log data and document technical observations.</li><li>Support fault analysis, communication and speed-sensor observations, and structured technical reporting.</li><li>Work with Excel-based data processing and organize technical information for review.</li></ul></div>
+<h2>Selected projects</h2>
+<div class="re"><h3>Chaitu Rad RSSI</h3><p>Web-based tool for processing Kavach onboard CSV logs, analysing Rad1/Rad2 RSSI readings, visualising signal strength by location and exporting reports.</p><a href="https://radiorssi.vercel.app/" target="_blank" rel="noopener">radiorssi.vercel.app</a></div>
+<div class="re"><h3>Loco Observation – SHM + Faults Consolidator</h3><p>Processes SHM CSV files and fault Excel records, supports fault classification and consolidation, and generates structured reports.</p><a href="https://locoobservation.vercel.app/" target="_blank" rel="noopener">locoobservation.vercel.app</a></div>
+<div class="re"><h3>Loco Portal</h3><p>Independent locomotive reference platform for searching and organizing locomotive numbers, classes, sheds, zones and manufacturers.</p><a href="https://loco-db.vercel.app/" target="_blank" rel="noopener">loco-db.vercel.app</a></div>
+<div class="re"><h3>Loco Trails Tool</h3><p>Locomotive-focused data processing and analysis application for organizing technical information and supporting data workflows.</p></div>
+<div class="re"><h3>Voice and Touch Controlled Wheelchair</h3><p>Arduino Uno-based assistive mobility prototype using HC-05 Bluetooth, touch/voice controls, L298N motor driver and ultrasonic obstacle detection.</p></div>
+<div class="re"><h3>Personal 3D Portfolio</h3><p>Personal website showcasing projects and technical interests through a futuristic interface, cinematic typography and interactive 3D visual design.</p></div>
+<h2>Education</h2><div class="re"><h3>Diploma in Electronics and Communication Engineering</h3><div class="m">A. A. N. M. &amp; V. V. R. S. R. Polytechnic, Gudlavalleru · 91.2%</div></div><div class="re"><h3>SSC</h3><div class="m">Z.P. High School · 72%</div></div>
+<h2>Strengths</h2><div class="chips"><span>Critical thinking</span><span>Problem-solving</span><span>Teamwork</span><span>Quick learning</span><span>Self-learning</span></div></main></div></div>
+<div id="md" role="dialog" aria-modal="true"><div class="mb" id="mbx"></div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+// ===== CONFIG: fill these in. Empty values stay disabled — nothing is invented. =====
+const CONFIG={email:"Chaitume0@gmail.com",linkedin:"https://www.linkedin.com/in/chaitanyadurgesh-k",
+ // Form backend: URL that accepts a JSON POST (e.g. Formspree, your own API). Empty = form reports it is not connected.
+ formEndpoint:"/api/contact"};
+const PROJECTS=[
+{n:"01",t:"Loco Portal",cat:["Railway Technology","Web Development","Database Management"],d:"An independent, unofficial Indian Railways locomotive reference platform that organizes locomotive information in one searchable database.",
+purpose:"Build an organized and searchable digital reference platform for Indian Railways locomotive information.",
+f:["Search locomotives by locomotive number","Explore locomotive classes","Shed and railway zone information","Manufacturer information","Centralized locomotive database","Administrative dashboard","Database management","Bulk Excel data management","Authentication-based administration"],
+tech:["Supabase","PostgreSQL","Vercel"],tl:"Technologies",tags:["Supabase","PostgreSQL","Vercel"],
+wp:"Locomotive records are kept in one central database. Visitors search by locomotive number or browse by class, shed, zone and manufacturer, while authenticated administrators manage the data through a dashboard, including bulk Excel data management.",
+arch:["Admin login","Dashboard and bulk Excel","Database","Search and browse"],hi:["Every record shows its verification status","Specifications and history added only where a source is available","Public pages for locomotives, classes, sheds, zones and manufacturers, plus a data status page"],note:"Independent and unofficial; not an Indian Railways application.",live:"https://loco-db.vercel.app/",c1:"#2EE6FF",c2:"#7C5CFF"},
+{n:"02",t:"Loco Trails Tool",status:"Under development",cat:["Railway Data Analysis","Software Development"],d:"A locomotive-related data processing and analysis application that organizes locomotive information and simplifies technical data workflows.",
+purpose:"Simplify locomotive-related data workflows through a structured software application.",
+f:["Locomotive data processing","Structured data organization","Technical information management","Data analysis workflows","Web-based application interface"],
+tech:[],tags:["Data processing","Data analysis","Web-based"],
+wp:"Locomotive-related data goes in, is processed and organized into a structured form, and is then available for analysis workflows through the web interface.",
+arch:["Locomotive data","Processing","Structured organization","Analysis workflows"],hi:[],note:"",live:"",c1:"#7C5CFF",c2:"#2EE6FF"},
+{n:"03",t:"Voice and Touch Controlled Wheelchair",status:"Academic hardware project · no live link",cat:["Electronics Engineering","Embedded Systems","Assistive Technology"],d:"An electronics project that controls wheelchair movement with voice commands and touch inputs, with ultrasonic obstacle detection.",
+purpose:"Explore an affordable electronics-based assistive mobility system combining voice interaction, touch control and obstacle detection.",
+f:["Voice-controlled movement","Touch-based directional control","Bluetooth communication","Motor control","Ultrasonic obstacle detection","Approximately five-second command execution in the planned control workflow"],
+tech:["Arduino Uno","HC-05 Bluetooth module","Ultrasonic sensor","L298N motor driver","DC motors","Voice command interface","Touch control interface"],tl:"Hardware",tags:["Arduino Uno","HC-05","Ultrasonic sensor","L298N"],
+wp:"Voice or touch commands are sent over the HC-05 Bluetooth module to the Arduino Uno, which drives the DC motors through the L298N motor driver. An ultrasonic sensor on the Arduino provides obstacle detection.",
+arch:["Voice / touch command","HC-05 Bluetooth","Arduino Uno","L298N driver","DC motors"],side:"Ultrasonic sensor → Arduino Uno (obstacle detection)",hi:[],note:"An engineering project; not medically certified or commercially deployed.",live:"",c1:"#2EE6FF",c2:"#8FB8FF"},
+{n:"04",t:"Chaitu Rad RSSI",ver:"Version 2.0",cat:["Railway Technology","Kavach Data Analysis","Data Visualization"],d:"A web-based tool that analyzes Rad1 and Rad2 RSSI readings from KAVACH onboard locomotive log CSV files and plots them against location.",
+purpose:"Simplify the analysis of locomotive radio signal readings and provide a structured way to understand RSSI behaviour across stations and directions.",
+f:["KAVACH onboard CSV processing","Rad1 and Rad2 RSSI extraction","Sudden signal spike detection and correction","Station-specific filtering","Forward and reverse direction analysis","RSSI versus absolute location visualization","Station entry, center and exit border limits","Custom border configuration","User and account management","Excel export with editable charts","PNG graph export","PDF report generation"],
+tech:[],tags:["CSV processing","Signal analysis","Interactive charts","Excel / PNG / PDF export"],
+wp:"A KAVACH onboard log CSV is uploaded, Rad1 and Rad2 RSSI are extracted, sudden spikes are corrected, and the reading is plotted against absolute location for the station pass you choose.",
+arch:["KAVACH onboard CSV","Rad1 / Rad2 extraction","Spike correction","Station and direction filter","RSSI vs location chart","Excel / PNG / PDF"],
+hi:["CSV data processing","Radio signal analysis","Data filtering and transformation","Interactive data visualization","Automated reporting","Configuration management","Uploaded CSV stays in the browser; only border limits and login accounts sync to the cloud (as stated on the live site)"],
+note:"An independently developed software project, not an official railway application.",live:"https://radiorssi.vercel.app/",c1:"#B58CFF",c2:"#2EE6FF"},
+{n:"05",t:"Loco Observation",sub:"SHM + Faults Consolidator",cat:["Railway Technology","SHM Data Processing","Fault Analysis"],d:"A data processing application that consolidates locomotive SHM CSV files and fault Excel records into organized, structured reports.",
+purpose:"Reduce manual locomotive data handling by combining SHM and fault information into structured reports.",
+f:["Bulk folder-based file processing","SHM CSV data consolidation","Fault Excel processing","Station list management","Critical fault classification","Repeated fault identification","Continuous fault threshold configuration","Duplicate fault consolidation","Separate Normal EVL and Additional fault sheets","SHM and fault data previews","Real-time processing activity logs","Separate SHM and fault report downloads","Combined report generation","Preservation of SHM formatting and colours"],
+tech:[],tags:["CSV processing","Excel workbooks","Rule-based classification","Duplicate detection"],
+wp:"Select a main folder containing SHM CSV and fault Excel files, set the fault rules such as repeated and continuous thresholds, and run the tools. Results are previewed with a live activity log, then downloaded as SHM, fault or combined reports.",
+arch:["SHM CSV files","Fault Excel records","Rule-based classification","Duplicate consolidation","SHM / fault / combined reports"],
+hi:["CSV processing","Excel workbook processing","Rule-based fault classification","Duplicate detection","Multi-file processing","Automated reporting"],
+note:"An independently developed railway data processing application.",live:"https://locoobservation.vercel.app/",c1:"#2EE6FF",c2:"#7C5CFF"}];
+
+const SK={"Programming and Development":["C","Verilog","HTML","CSS","JavaScript"],"Electronics":["Digital Electronics","Sensors","Actuators","Embedded Systems Fundamentals","Electrical Circuit Basics","Sensors and Interfacing","Arduino Uno"],"Railway Technology":["Kavach System","Railway Signalling Fundamentals","Technical Log Analysis","Fault Documentation"],"Data and Software":["Excel","Data Analysis","Technical Reporting","Database Fundamentals","Web Application Development","CSV and Excel Data Processing","Data Visualization"]};
+const INT=[["Railway Safety Technology","Systems that keep trains safe, from signalling to Kavach."],["FPGA and Digital Design","Describing hardware in Verilog."],["Embedded Systems","Software that runs on small devices."],["Electronics Engineering","Circuits, sensors and actuators."],["Data Analytics","Turning logs into clear findings."],["Software Development","Web apps and practical tools."]];
+const $=s=>document.querySelector(s);
+const art=[
+`<g class="a"><ellipse cx="130" cy="80" rx="62" ry="18"/><path d="M68 80v54c0 10 28 18 62 18s62-8 62-18V80M68 107c0 10 28 18 62 18s62-8 62-18"/></g><g class="b"><path d="M220 110h60M280 110v-50h50M280 110v50h50"/><circle cx="338" cy="60" r="9"/><circle cx="338" cy="160" r="9"/></g><g class="a" opacity=".6"><path d="M60 300 190 205M340 300 210 205M110 262h180M135 240h130M155 222h90"/></g>`,
+`<g class="fa" opacity=".85"><rect x="60" y="170" width="30" height="80" rx="4"/><rect x="110" y="130" width="30" height="120" rx="4"/><rect x="160" y="150" width="30" height="100" rx="4"/></g><rect class="fb" x="210" y="100" width="30" height="150" rx="4"/><g class="b"><path d="M270 150h50M310 140l12 10-12 10"/><rect x="330" y="110" width="50" height="80" rx="10"/><path d="M342 135h26M342 150h26M342 165h16"/></g><path class="a" d="M50 70c60-40 120 30 180-10s90-30 120-10"/>`,
+`<g class="a"><rect x="130" y="80" width="90" height="70" rx="8"/><path d="M130 100h-30M130 120h-30M130 140h-30M220 100h30M220 120h30M220 140h30M160 80V56M190 80V56M160 150v24M190 150v24"/></g><g class="b"><circle cx="300" cy="215" r="48"/><circle cx="300" cy="215" r="8"/><path d="M300 167v96M252 215h96"/></g><g class="a" opacity=".7"><path d="M290 90a28 28 0 0 1 0 40M305 78a46 46 0 0 1 0 64M320 66a64 64 0 0 1 0 88"/></g><path class="b" d="M40 240h140l20-30h40" opacity=".7"/>`,
+`<g class="b" opacity=".45"><path d="M40 40v220h330M40 90h330M40 150h330M40 210h330"/></g><path class="a" d="M50 200l30-20 30 10 25-60 22 50 20-30 15 70 15-90 12 100 16-40 40-10 40-30 38 0"/><g class="b"><path d="M150 40v220M250 40v220" stroke-dasharray="5 6"/></g><circle class="fb" cx="187" cy="100" r="5"/><g class="a" opacity=".7"><path d="M310 60a20 20 0 0 1 24 20M310 40a40 40 0 0 1 48 40"/></g>`,
+`<g class="a"><rect x="50" y="60" width="150" height="120" rx="8"/><path d="M50 90h150M50 120h150M50 150h150M100 60v120M150 60v120"/></g><g class="fb" opacity=".8"><rect x="104" y="94" width="42" height="22"/><rect x="154" y="124" width="42" height="22"/></g><rect class="fa" opacity=".7" x="54" y="154" width="42" height="22"/><g class="b"><path d="M215 120h50M255 108l14 12-14 12"/><path d="M285 70h70l25 25v105H285z"/><path d="M355 70v25h25M300 120h60M300 145h60M300 170h40"/></g><path class="a" d="M110 240l22-38 22 38z" opacity=".8"/>`,
+`<g class="a" opacity=".7"><circle cx="200" cy="150" r="95"/><ellipse cx="200" cy="150" rx="140" ry="40" transform="rotate(-20 200 150)"/></g><circle class="b" cx="200" cy="150" r="55"/><text x="200" y="172" text-anchor="middle" font-family="Space Grotesk,sans-serif" font-weight="700" font-size="60" class="fa">CD</text>`];
+const dots=i=>Array.from({length:30},(_,k)=>`<circle class="fb" cx="${(30+k*97+i*53)%380}" cy="${(24+k*61+i*29)%270}" r="${1+(k%3)*.7}" opacity=".5"/>`).join("");
+
+// skills
+$("#sg").innerHTML=Object.entries(SK).map(([k,v])=>`<div class="sk"><h3>${k}</h3>${v.map(s=>`<span>${s}</span>`).join("")}</div>`).join("");
+$("#ig").innerHTML=INT.map(([a,b])=>`<div class="sk"><h3>${a}</h3><p style="margin:0">${b}</p></div>`).join("");
+document.querySelectorAll(".sk").forEach(c=>{c.addEventListener("pointermove",e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;c.style.setProperty("--x",x*100+"%");c.style.setProperty("--y",y*100+"%");c.style.transform=`perspective(700px) rotateY(${(x-.5)*10}deg) rotateX(${(.5-y)*10}deg)`});c.addEventListener("pointerleave",()=>c.style.transform="")});
+// projects
+const lnk=(u,l,p)=>`<a class="b ${p||""}" href="${u}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${l}</a>`;
+$("#pl").innerHTML=PROJECTS.map((p,i)=>`<article class="pc pj" data-i="${i}" tabindex="0" style="--c1:${p.c1};--c2:${p.c2}"><div class="pv"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${art[i%art.length]}${dots(i)}</svg></div><div class="pi"><span class="no">${p.n}</span><div class="cats">${p.cat.map(c=>`<i>${c}</i>`).join("")}</div><h3>${p.t}</h3>${p.sub?`<em class="sub">${p.sub}</em>`:""}<p>${p.d}</p><div class="tags">${p.tags.map((t,k)=>`<span style="--i:${k}">${t}</span>`).join("")}</div><div class="btns" style="margin:6px 0 0;opacity:1;transform:none;animation:none"><span class="b p">Case study →</span>${p.live?lnk(p.live,"Open project"):p.status?`<span class="st">${p.status}</span>`:""}</div></div></article>`).join("");
+function openM(i){const p=PROJECTS[i],sec=(h,b)=>b?`<h4>${h}</h4>${b}`:"",ul=(a,c)=>a&&a.length?`<ul class="${c||""}">${a.map(x=>`<li>${x}</li>`).join("")}</ul>`:"",tg=a=>a&&a.length?`<div class="tags">${a.map(t=>`<span>${t}</span>`).join("")}</div>`:"";
+const flow=`<div class="flow">${p.arch.map((x,k)=>(k?"<b>→</b>":"")+`<span>${x}</span>`).join("")}</div>${p.side?`<p style="margin:10px 0 0">${p.side}</p>`:""}`;
+$("#mbx").style.setProperty("--c1",p.c1);$("#mbx").style.setProperty("--c2",p.c2);
+$("#mbx").innerHTML=`<div class="pv mv"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${art[i%art.length]}${dots(i)}</svg></div><div class="cats">${p.cat.map(c=>`<i>${c}</i>`).join("")}${p.ver?`<i>${p.ver}</i>`:""}</div><h3>${p.t}${p.sub?` <span class="sub">— ${p.sub}</span>`:""}</h3><p>${p.d}</p>${p.note?`<p class="note">${p.note}</p>`:""}`+sec("Purpose",`<p>${p.purpose}</p>`)+sec("Key features",ul(p.f,"cols"))+(p.tech.length?sec(p.tl,tg(p.tech)):"")+sec("Working principle",`<p>${p.wp}</p>`)+sec("System architecture",flow)+(p.hi.length?sec("Technical highlights",ul(p.hi)):"")+`<div class="btns" style="opacity:1;transform:none;animation:none">${p.live?lnk(p.live,"Open project","p"):p.status?`<span class="st">${p.status}</span>`:""}<button class="b" id="cl">Close</button></div>`;
+$("#md").classList.add("o");$("#cl").focus();$("#cl").onclick=()=>$("#md").classList.remove("o")}
+document.querySelectorAll(".pc").forEach(c=>{c.onclick=()=>openM(c.dataset.i);c.onkeydown=e=>{if(e.key==="Enter")openM(c.dataset.i)}});
+$("#md").onclick=e=>{if(e.target.id==="md")$("#md").classList.remove("o")};
+document.onkeydown=e=>{if(e.key==="Escape")$("#md").classList.remove("o")};
+
+// config links
+[["li","linkedin"]].forEach(([id,k])=>{const a=$("#"+id);if(CONFIG[k]){a.href=CONFIG[k];a.target="_blank";a.rel="noopener";a.removeAttribute("aria-disabled")}else{a.onclick=e=>e.preventDefault();a.style.opacity=.5}});
+if(CONFIG.email){const a=document.createElement("a");a.href="mailto:"+CONFIG.email;a.textContent=CONFIG.email;a.style.color="var(--a2)";$("#em").textContent="";$("#em").append(a)}
+$("#yr").textContent=new Date().getFullYear();
+// nav
+const nav=$("#nav");addEventListener("scroll",()=>nav.classList.toggle("s",scrollY>40),{passive:true});
+$("#mb").onclick=()=>nav.classList.toggle("o");nav.querySelectorAll("a.l").forEach(a=>a.onclick=()=>nav.classList.remove("o"));
+const links=[...nav.querySelectorAll("a.l")];
+new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle("on",l.getAttribute("href")==="#"+e.target.id))}),{threshold:.45}).observe&&document.querySelectorAll("section").forEach(s=>new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle("on",l.getAttribute("href")==="#"+e.target.id))}),{threshold:.45}).observe(s));
+document.querySelectorAll(".tl").forEach(t=>new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){t.classList.add("v");o.disconnect()}}),{threshold:.2}).observe(t));
+// photo frame tilt
+const fr=$("#fr");fr.addEventListener("pointermove",e=>{const r=fr.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;fr.style.transform=`perspective(900px) rotateY(${x*16}deg) rotateX(${-y*16}deg)`});fr.addEventListener("pointerleave",()=>fr.style.transform="");
+// contact form
+$("#f").addEventListener("submit",async e=>{e.preventDefault();const f=e.target,d=Object.fromEntries(new FormData(f)),st=$("#st");
+const errs={name:d.name.trim().length<2&&"Enter your name.",email:!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.email)&&"Enter a valid email address.",subject:d.subject.trim().length<3&&"Enter a subject.",message:d.message.trim().length<10&&"Write at least 10 characters."};
+let bad=false;["name","email","subject","message"].forEach(k=>{f[k].parentNode.querySelector(".err").textContent=errs[k]||"";if(errs[k])bad=true});
+if(bad){st.style.color="#ff8a8a";st.textContent="Fix the highlighted fields.";return}
+if(d.website){return}
+if(!CONFIG.formEndpoint){st.style.color="#ff8a8a";st.textContent="Message not sent: this form is not connected to a backend yet.";return}
+st.style.color="";st.textContent="Sending…";
+try{const r=await fetch(CONFIG.formEndpoint,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify({name:d.name,email:d.email,subject:d.subject,message:d.message})});
+if(!r.ok)throw 0;st.style.color="#2EE6FF";st.textContent="Message sent.";f.reset()}catch{st.style.color="#ff8a8a";st.textContent="Message not sent. Try again later."}});
+// upgrades: progress bar, letter reveal, section reveal, cursor, magnetic buttons, card light
+const pg=document.createElement("div");pg.id="pg";document.body.prepend(pg);
+addEventListener("scroll",()=>{pg.style.transform=`scaleX(${scrollY/((document.documentElement.scrollHeight-innerHeight)||1)})`},{passive:true});
+const h1=document.querySelector(".hc h1");h1.setAttribute("aria-label",h1.textContent);h1.innerHTML=[...h1.textContent].map((c,i)=>`<span aria-hidden="true" style="animation-delay:${1.2+i*.06}s">${c}</span>`).join("");
+const ro=new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("v");o.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll("section:not(#home) h2,.tl .it").forEach(n=>{n.classList.add("rv2");ro.observe(n)});
+if(matchMedia("(hover:hover) and (pointer:fine)").matches){
+document.querySelectorAll(".b").forEach(b=>{b.addEventListener("pointermove",e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.2}px,${(e.clientY-r.top-r.height/2)*.3}px)`});b.addEventListener("pointerleave",()=>b.style.transform="")})}
+document.querySelectorAll(".pc").forEach(c=>{c.addEventListener("pointermove",e=>{const r=c.getBoundingClientRect();c.style.setProperty("--x",e.clientX-r.left+"px");c.style.setProperty("--y",e.clientY-r.top+"px")})});
+// v4: local time, back-to-top, hero parallax, loader
+const tm=$("#tm"),tick=()=>{tm.textContent=new Date().toLocaleTimeString("en-IN",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit"})+" IST"};tick();setInterval(tick,30000);
+const rmv=matchMedia("(prefers-reduced-motion:reduce)").matches,tp=$("#top"),hcEl=document.querySelector(".hc");let tk=false;
+tp.onclick=()=>scrollTo({top:0,behavior:rmv?"auto":"smooth"});
+addEventListener("scroll",()=>{if(tk)return;tk=true;requestAnimationFrame(()=>{tk=false;tp.classList.toggle("s",scrollY>innerHeight*.8);if(!rmv&&scrollY<innerHeight*1.2)hcEl.style.translate=`0 ${scrollY*.12}px`})},{passive:true});
+(document.fonts?document.fonts.ready:Promise.resolve()).then(()=>setTimeout(()=>$("#ld").classList.add("x"),500));
+// v5: labels, project tilt + depth, panel lighting
+[["about","About"],["experience","Experience"],["skills","Skills"],["projects","Projects"],["education","Education"]].forEach(([id,t])=>{const h=document.querySelector("#"+id+" h2");if(!h)return;const d=document.createElement("div");d.className="lb";d.innerHTML="<i></i>"+t;h.before(d)});
+document.querySelectorAll(".pc").forEach(c=>{if(rmv)return;c.addEventListener("pointermove",e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(1100px) rotateY(${x*6}deg) rotateX(${-y*5}deg) translateY(-4px)`;c.style.setProperty("--px",x);c.style.setProperty("--py",y)});c.addEventListener("pointerleave",()=>{c.style.transform="";c.style.setProperty("--px",0);c.style.setProperty("--py",0)})});
+document.querySelectorAll(".it,.ci").forEach(c=>c.addEventListener("pointermove",e=>{const r=c.getBoundingClientRect();c.style.setProperty("--x",e.clientX-r.left+"px");c.style.setProperty("--y",e.clientY-r.top+"px")}));
+// resume viewer (view only, opens at #resume)
+const rs=$("#rs");function rsOpen(){const on=location.hash==="#resume";rs.classList.toggle("o",on);document.body.classList.toggle("rso",on);document.documentElement.style.overflow=on?"hidden":"";if(on){rs.scrollTop=0;$("#rcl").focus()}}
+addEventListener("hashchange",rsOpen);rsOpen();$("#rcl").onclick=()=>{location.hash=""};
+addEventListener("keydown",e=>{if(e.key==="Escape"&&location.hash==="#resume")location.hash=""});
+rs.addEventListener("contextmenu",e=>e.preventDefault());rs.addEventListener("copy",e=>e.preventDefault());
+// IDENTITY: hero name constructed from a particle system (hero only)
+(async function(){
+const hero=$("#home"),cvs=$("#idn"),wrap=cvs.parentNode,h1=hero.querySelector("h1"),rl=hero.querySelector(".r");
+const fb=()=>{hero.classList.add("noidn");h1.classList.remove("sr");rl.classList.add("on");wrap.style.display="none"};
+const rm=matchMedia("(prefers-reduced-motion:reduce)").matches,sm=innerWidth<860;
+if(!window.THREE){fb();return}
+let R;try{R=new THREE.WebGLRenderer({canvas:cvs,alpha:true,antialias:false})}catch(e){fb();return}
+try{await Promise.race([document.fonts.load("700 100px 'Space Grotesk'"),new Promise(r=>setTimeout(r,2500))])}catch(e){}
+const FF="'Space Grotesk',Inter,sans-serif",W=1000,o=document.createElement("canvas");let x=o.getContext("2d");
+x.font="700 100px "+FF;const mw=x.measureText("CHAITANYA").width,fs=100*W/mw,H=Math.ceil(fs*2.35);o.width=W;o.height=H;x=o.getContext("2d");
+x.font="700 "+fs+"px "+FF;x.textBaseline="middle";x.fillStyle="#fff";x.fillText("CHAITANYA",0,H*.27);x.fillText("DURGESH",0,H*.76);
+const im=x.getImageData(0,0,W,H).data,c=[];for(let y=0;y<H;y+=2)for(let q=0;q<W;q+=2)if(im[(y*W+q)*4+3]>140)c.push(q,y);
+if(c.length<200){fb();return}
+const N=sm?3600:7500,pos=new Float32Array(N*3),sd=new Float32Array(N*4),cnt=c.length/2;
+for(let i=0;i<N;i++){const k=(Math.random()*cnt|0)*2;pos[i*3]=(c[k]+Math.random()*2-1)/W-.5;pos[i*3+1]=-((c[k+1]+Math.random()*2-1)/H-.5)*(H/W);pos[i*3+2]=Math.random()-.5;for(let j=0;j<4;j++)sd[i*4+j]=Math.random()}
+const g=new THREE.BufferGeometry();g.setAttribute("position",new THREE.BufferAttribute(pos,3));g.setAttribute("aS",new THREE.BufferAttribute(sd,4));
+R.setPixelRatio(Math.min(devicePixelRatio,sm?1.5:2));
+const sh={uT:{value:0},uForm:{value:0},uRel:{value:0},uSw:{value:0},uAtt:{value:0},uW:{value:14},uPR:{value:R.getPixelRatio()},uAb:{value:.004},uGl:{value:0},uAl:{value:0},uSz:{value:1}};
+const vs=`uniform float uT,uForm,uRel,uSw,uAtt,uW,uPR,uAb,uGl,uAl,uSz,uOff;attribute vec4 aS;varying float vA;varying vec3 vC;
+void main(){vec3 tg=vec3(position.xy*uW,position.z*uW*.07);vec3 st=(aS.xyz-.5)*vec3(1.7,1.1,.45)*uW;
+float an=uT*(.15+.25*aS.w)+aS.x*6.2832;vec3 sw=vec3(cos(an),sin(an*1.3+aS.y*3.),sin(an*.7+aS.z*3.))*(.05+.12*uSw)*uW*(.5+aS.y);
+vec3 fr=st*(1.-.55*uAtt)+sw;float f=smoothstep(aS.w*.4,aS.w*.4+.6,uForm);vec3 d=tg-fr;
+vec3 p=fr+d*f+vec3(-d.y,d.x,0.)*.22*sin(f*3.14159)*(.4+aS.z);
+p+=vec3(sin(uT*1.3+aS.x*20.),cos(uT*1.1+aS.y*20.),sin(uT*.9+aS.z*20.))*.004*uW*f;
+float a2=uT*.5*(.6+aS.w)+aS.x*6.2832;vec3 ob=tg+vec3(cos(a2)*.16,sin(a2*1.2)*.11,sin(a2)*.12)*uW*(.4+aS.y);p=mix(p,ob,uRel);
+p.x+=uOff*uAb*uW+uGl*step(.8,fract(p.y/uW*9.+uT*.5))*.03*uW;
+float pu=exp(-pow((position.x-(mod(uT*.5,1.8)-.7))*7.,2.))*f*(1.-uRel);
+vec3 c=mix(vec3(.1,.75,1.),vec3(.4,.95,1.),aS.y);c=mix(c,vec3(.62,.4,1.),step(.74,aS.z)*.8);
+c+=.15*vec3(sin(uT*.4+position.x*4.),0.,cos(uT*.4+position.x*4.))*f;vC=max(c,0.)*(1.+pu*2.2);
+vA=uAl*(.5+.5*f)*(.7+.3*aS.y)*(1.+pu*1.5)*(1.-.2*uRel);
+vec4 mv=modelViewMatrix*vec4(p,1.);gl_Position=projectionMatrix*mv;gl_PointSize=uPR*uSz*(1.2+aS.z*1.7+pu*2.)*(10./-mv.z);}`;
+const fs2=`uniform vec3 uTint;uniform float uTa;varying float vA;varying vec3 vC;
+void main(){float d=length(gl_PointCoord-.5);float a=smoothstep(.5,.05,d);a*=a;gl_FragColor=vec4(vC*uTint,a*vA*uTa);}`;
+const mk=(tint,ta,off)=>{const m=new THREE.ShaderMaterial({uniforms:Object.assign({},sh,{uTint:{value:new THREE.Vector3(...tint)},uTa:{value:ta},uOff:{value:off}}),vertexShader:vs,fragmentShader:fs2,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending});const p=new THREE.Points(g,m);p.frustumCulled=false;return p};
+const P1=mk([1,1,1],1,0),P2=mk([.95,.4,.75],.35,-1),P3=mk([.2,.9,1],.35,1),G=new THREE.Group();G.add(P2,P3,P1);
+const S=new THREE.Scene(),cam=new THREE.PerspectiveCamera(35,2.4,.1,50);S.add(G);cam.position.z=10;
+function resize(){const w=wrap.clientWidth,h=wrap.clientHeight;if(!w||!h)return;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix();const vw=2*Math.tan(.30543)*10*cam.aspect;sh.uW.value=vw*Math.min(w*.94,mw)/w;G.position.x=-(vw-sh.uW.value)/2;sh.uSz.value=Math.min(Math.max(w/700,.7),1.6);sh.uPR.value=R.getPixelRatio();if(rm)draw()}
+const E=v=>v<0?0:v>1?1:v*v*(3-2*v);
+function set(t){const Fm=Math.min(Math.max((t-4.5)/3,0),1),cy=(t-7.5)%12.5,r0=t>7.5?E(cy-7)*(1-E(cy-9)):0,rel=Math.max(r0,Math.min(scrollY/innerHeight*1.2,1));
+sh.uT.value=t;sh.uForm.value=Fm;sh.uRel.value=rel;sh.uSw.value=E((t-2)/2.5);sh.uAtt.value=E((t-2.2)/2.3);sh.uAl.value=Math.min(t/1.8,1);
+sh.uAb.value=.004+.003*Math.pow(Math.sin(t*.9),2)+(t<8?.012*Math.sin(Math.PI*Fm):0)+.006*rel;sh.uGl.value=t>7.5&&(t%6.3)<.12?1:0;if(t>7.4)rl.classList.add("on")}
+let px=0,py=0;function draw(){set(10);cam.position.set(0,0,10);cam.lookAt(0,0,0);R.render(S,cam)}
+resize();addEventListener("resize",resize);
+if(rm){draw();return}
+addEventListener("pointermove",e=>{px=e.clientX/innerWidth-.5;py=e.clientY/innerHeight-.5},{passive:true});
+let vis=true,ema=16,lf=0,slow=0,low=false;const t0=performance.now();
+new IntersectionObserver(e=>vis=e[0].isIntersecting).observe(hero);
+(function f(now){requestAnimationFrame(f);if(!vis||document.hidden){lf=0;return}
+const t=(now-t0)/1000;set(t);cam.position.set(px*.5+Math.sin(t*.2)*.15,-py*.3,10);cam.lookAt(0,0,0);R.render(S,cam);
+if(!sm&&!low&&lf&&now-lf<100){ema+=(now-lf-ema)*.05;slow=ema>34?slow+1:0;if(slow>90){low=true;R.setPixelRatio(1);resize();P2.visible=P3.visible=false}}lf=now})(t0);
+})();
+// FLOW: one evolving liquid-chrome form + scroll-reactive atmosphere
+(function(){
+if(!window.THREE)return;
+const rm=matchMedia("(prefers-reduced-motion:reduce)").matches,sm=innerWidth<860;
+const cv=document.createElement("canvas");cv.id="fx";cv.setAttribute("aria-hidden","true");document.body.prepend(cv);
+let R;try{R=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:!sm})}catch(e){cv.style.background="radial-gradient(circle at 70% 35%,rgba(124,92,255,.2),transparent 55%)";return}
+R.setPixelRatio(Math.min(devicePixelRatio,sm?1.25:1.75));
+const S=new THREE.Scene(),C=new THREE.PerspectiveCamera(40,1,.1,100);
+const U={uT:{value:0},uP:{value:0},uX:{value:0},uA:{value:.25},uC:{value:0},uPat:{value:new THREE.Vector3()}};
+const vs=`uniform float uT,uX,uA,uP,uC;varying vec3 vN;varying vec3 vV;varying vec3 vO;varying vec3 vE;
+float h(vec3 p){vec3 w=p+.35*vec3(sin(p.y*3.+uT*.5),sin(p.z*3.-uT*.4),sin(p.x*3.+uT*.6));
+return sin(w.x*2.1+uT*.7+uP*6.)*sin(w.y*1.7-uT*.5)*sin(w.z*2.3+uT*.6)+.5*sin(w.x*4.3-w.y*3.1+uT*.9+uP*9.)*sin(w.z*3.7+uT*.4);}
+vec3 T(vec3 p){vec3 ap=abs(p);float r=pow(pow(ap.x,4.)+pow(ap.y,4.)+pow(ap.z,4.),.25);vec3 b=mix(p,p/r*1.02,uC);
+vec3 q=b*(1.+uA*h(p)*.55*(1.-.6*uC));float a=uX*q.y*1.6,c=cos(a),s=sin(a);q.xz=mat2(c,-s,s,c)*q.xz;q.y*=1.+uX*.7;q.x*=1.-uX*.25;return q*(1.+.04*sin(uT*.8+uP*4.));}
+void main(){vec3 p=position,n=normalize(normal);vec3 t1=normalize(cross(n,vec3(0.,1.,.01))),t2=cross(n,t1);float e=.02;
+vec3 a=T(p),b=T(normalize(p+t1*e)),c=T(normalize(p+t2*e));vec3 nn=normalize(cross(b-a,c-a));if(dot(nn,n)<0.)nn=-nn;
+vN=normalize(normalMatrix*nn);vO=p;vec4 mv=modelViewMatrix*vec4(a,1.);vE=mv.xyz;vV=-mv.xyz;gl_Position=projectionMatrix*mv;}`;
+const fs=`uniform float uT,uC,uP;uniform vec3 uPat;varying vec3 vN;varying vec3 vV;varying vec3 vO;varying vec3 vE;
+float hs(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+vec3 env(vec3 r){float y=r.y*.5+.5;vec3 c=mix(vec3(.01,.015,.05),vec3(.32,.32,1.),pow(y,2.2));
+c+=vec3(.75,.9,1.)*smoothstep(.82,1.,sin(r.x*3.+r.y*2.5)*.5+.5)*.9;c+=vec3(.25,.85,1.)*pow(max(0.,r.z),10.)*.7;c+=vec3(.1,.3,.9)*smoothstep(.6,1.,sin(r.y*7.+r.x*2.))*.25;return c;}
+void main(){vec3 n=normalize(vN);vec3 fn=normalize(cross(dFdx(vE),dFdy(vE)));if(dot(fn,n)<0.)fn=-fn;n=normalize(mix(n,fn,uC));
+vec3 v=normalize(vV),r=reflect(-v,n);float nv=max(dot(n,v),0.),fr=pow(1.-nv,3.);
+float ph=nv*5.+uT*.15+uP*3.;vec3 ir=.5+.5*cos(6.2832*(vec3(0.,.12,.25)+ph*.35));
+vec3 irc=mix(vec3(.45,.35,1.),vec3(.2,.9,1.),ir.g)*(.5+.5*ir.r);
+vec3 col=env(r)*(.55+.8*fr)+irc*fr*.8;
+float rl=smoothstep(.94,1.,sin(vO.y*22.-uT*1.6));rl+=rl*smoothstep(.97,1.,sin(vO.x*30.+uT));
+vec2 g=vec2(atan(vO.z,vO.x)*4.,vO.y*7.);vec2 f=abs(fract(g)-.5);
+float ci=max(step(.47,f.x),step(.47,f.y))*step(.55,hs(floor(g)))+smoothstep(.12,.08,length(fract(g)-.5))*step(.8,hs(floor(g)+3.));
+vec2 g2=vec2(atan(vO.z,vO.x)*3.,vO.y*5.);float da=smoothstep(.22,.1,length(fract(g2)-.5))*step(.45,hs(floor(g2)))*(.6+.4*sin(uT*2.+hs(floor(g2))*6.));
+col+=vec3(.25,.8,1.)*(rl*uPat.x+ci*uPat.y+da*uPat.z)*.5;
+col*=.97+.03*sin(gl_FragCoord.y*1.4);
+gl_FragColor=vec4(pow(col,vec3(.95)),1.);}`;
+const mat=new THREE.ShaderMaterial({uniforms:U,vertexShader:vs,fragmentShader:fs});mat.extensions={derivatives:true};
+const mesh=new THREE.Mesh(new THREE.SphereGeometry(1,sm?48:96,sm?32:64),mat);S.add(mesh);
+// atmosphere: fog glow, light beams, holographic dot field; reacts to scroll
+const B={uT:{value:0},uP:{value:0},uAsp:{value:1},uR:{value:new THREE.Vector2(1,1)}};
+const bg=new THREE.Mesh(new THREE.PlaneGeometry(2,2),new THREE.ShaderMaterial({uniforms:B,depthTest:false,depthWrite:false,vertexShader:"void main(){gl_Position=vec4(position.xy,1.,1.);}",fragmentShader:`uniform float uT,uP,uAsp;uniform vec2 uR;
+void main(){vec2 uv=gl_FragCoord.xy/uR;vec2 q=(uv-.5)*vec2(uAsp,1.);vec3 c=vec3(.02,.031,.063);
+vec2 gc=vec2(.35*sin(uP*6.2832)+.2,.15*cos(uP*5.));
+c+=vec3(.28,.2,.75)*exp(-length(q-gc)*2.4)*.35;c+=vec3(.03,.2,.3)*exp(-length(q+gc*1.2)*3.)*.4;
+c+=vec3(.15,.4,.8)*pow(.5+.5*sin((q.x*1.2+q.y*.7)*7.+uP*9.+uT*.12),8.)*smoothstep(-.2,.7,uv.y)*.06;
+float d=length(fract(q*26.)-.5);c+=vec3(.3,.7,1.)*smoothstep(.09,.04,d)*.06*(.4+.6*sin(uP*8.+q.x*3.))*(1.-smoothstep(.2,.9,length(q)));
+c*=1.-.45*smoothstep(.3,1.1,length(q));gl_FragColor=vec4(c,1.);}`}));
+bg.frustumCulled=false;bg.renderOrder=-1;S.add(bg);
+const N=sm?180:450,pa=new Float32Array(N*3);for(let i=0;i<N;i++){pa[i*3]=(Math.random()-.5)*20;pa[i*3+1]=(Math.random()-.5)*14;pa[i*3+2]=-6+Math.random()*8}
+const pg=new THREE.BufferGeometry();pg.setAttribute("position",new THREE.BufferAttribute(pa,3));
+const pts=new THREE.Points(pg,new THREE.PointsMaterial({color:0x2EE6FF,size:.035,transparent:true,opacity:.5}));S.add(pts);
+// stages: x,y,z,scale,rotY,rotX,morph,amp,crystal, railPattern,circuitPattern,dataPattern
+const K=[[.8,.1,0,1.3,0,0,0,.25,0,0,0,0],[-.62,.1,0,1.65,.9,.15,.15,.3,0,0,0,0],[.7,-.1,.5,1.35,2.4,.6,.55,.38,0,1,0,0],[-.68,0,.2,1.55,3.6,-.3,1,.45,0,0,.9,.4],[0,0,-1.8,2.3,4.6,.3,.7,.32,0,0,.35,.9],[.7,0,0,1.25,5.6,.2,.35,.2,0,0,0,0],[0,.1,0,1.45,6.6,0,0,.1,1,0,0,0]];
+const L=12;let tops=[],hs=[],cur=[],sy=-1,last=0,lf=0,ema=16,slow=0,low=false;const t0=performance.now();
+function measure(){const ss=[...document.querySelectorAll("section")];tops=ss.map(s=>s.offsetTop);hs=ss.map(s=>s.offsetHeight);R.setSize(innerWidth,innerHeight,false);B.uR.value.set(cv.width,cv.height);B.uAsp.value=innerWidth/innerHeight;C.aspect=innerWidth/innerHeight;C.updateProjectionMatrix();sy=-1}
+function target(){const sc=scrollY+innerHeight*.5;let i=tops.length-1;while(i>0&&tops[i]>sc)i--;const u=Math.min(Math.max(i+(sc-tops[i])/hs[i]-.5,0),6),j=Math.min(Math.floor(u),5),f=u-j,e=f*f*(3-2*f);return{u,v:K[j].map((a,k)=>a+(K[j+1][k]-a)*e)}}
+function frame(now){requestAnimationFrame(frame);if(document.hidden||!tops.length)return;
+if(rm&&scrollY===sy)return;
+const t=rm?0:(now-t0)/1000,{u,v}=target();
+const ent=rm?1:Math.min(Math.max((t-.3)/2.2,0),1),ee=1-Math.pow(1-ent,3);
+if(!cur.length)cur=v.slice();
+let moved=0;for(let k=0;k<L;k++){const d=v[k]-cur[k];cur[k]+=rm?d:d*.09;moved+=Math.abs(d)}
+if(sm&&moved<.004&&ent>=1&&now-last<66)return;last=now;sy=scrollY;
+if(!sm&&!low&&lf){ema+=(now-lf-ema)*.05;slow=ema>34?slow+1:0;if(slow>120){low=true;R.setPixelRatio(1);measure();pts.visible=false}}lf=now;
+const hh=Math.tan(.349066)*8,hw=hh*C.aspect,nr=C.aspect<1;
+mesh.position.set(cur[0]*hw*(nr?.3:.78),cur[1]*hh+(nr?hh*.4:0),cur[2]);
+mesh.scale.setScalar(Math.max(cur[3]*(nr?.62:1)*ee,.001));
+mesh.rotation.set(cur[5]+Math.sin(t*.3)*.1,cur[4]+t*.12,0);
+U.uX.value=cur[6];U.uA.value=cur[7];U.uC.value=cur[8];U.uPat.value.set(cur[9],cur[10],cur[11]);U.uT.value=t;U.uP.value=u/6;B.uT.value=t;B.uP.value=u/6;
+C.position.set(Math.sin(u*.9)*.9,Math.cos(u*.7)*.35,8+Math.cos(u*1.3)*.9);C.lookAt(mesh.position.x*.25,mesh.position.y*.25,0);C.rotation.z+=Math.sin(u*.8)*.03;
+pts.position.y=scrollY/innerHeight*.8;pts.rotation.y=t*.02;
+R.render(S,C)}
+measure();requestAnimationFrame(frame);
+addEventListener("resize",measure);let rt;new ResizeObserver(()=>{clearTimeout(rt);rt=setTimeout(measure,150)}).observe(document.body);
+})();
+</script></body></html>
