@@ -5,7 +5,7 @@
 // Optional:
 //   CONTACT_EMAIL  - supported as a fallback for older Vercel configuration
 
-const FROM_EMAIL = "Chaitanya Durgesh <hello@chaitanyadurgesh.in>";
+const FROM_EMAIL = "Chaitanya Durgesh <portfolio@chaitanyadurgesh.in>";
 
 function sendJson(res, status, payload) {
   res.status(status).setHeader("Content-Type", "application/json; charset=utf-8");
